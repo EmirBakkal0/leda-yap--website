@@ -30,9 +30,9 @@ export function Nav() {
                     <Navbar.Link href="/" >
                         Ana Sayfa
                     </Navbar.Link>
-                    <Navbar.Link href="/ustyapi">Üst Yapı Tesisleri</Navbar.Link>
-                    <Navbar.Link href="/altyapi">Alt Yapı</Navbar.Link>
-                    <Navbar.Link href="/about">Hakkımızda</Navbar.Link>
+                    <Navbar.Link href="ustyapi.html">Üst Yapı Tesisleri</Navbar.Link>
+                    <Navbar.Link href="altyapi.html">Alt Yapı</Navbar.Link>
+                    <Navbar.Link href="about.html">Hakkımızda</Navbar.Link>
                     <Navbar.Link href="#footer">İletişim</Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
