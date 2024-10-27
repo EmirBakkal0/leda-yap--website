@@ -1,24 +1,27 @@
-import React from 'react'
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import React from "react";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 function CarouselSlide(props) {
+  const xs_height = `min-h-[${props.xs}svh]`;
+  const sm_height = `sm:min-h-[${props.sm}svh]`;
+
   return (
     <SplideSlide>
-        <div className="relative pt-16 pb-32 flex min-h-[55svh] sm:min-h-[75svh]  h-full"
-          // style={{
-          //   minHeight: "75vh"
-          // }}
-          >
-          <div className="absolute top-0 w-full h-full bg-center bg-cover"
-            style={{
-              backgroundImage: `url(${props.img})`
-            }}>
-            
-          </div>
-         
-        </div>
-      </SplideSlide>
-  )
+      <div
+        className={`${xs_height} ${sm_height} relative flex  pb-32  pt-16`}
+        style={{
+          minHeight: "55vh",
+        }}
+      >
+        <div
+          className="absolute top-0 size-full bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${props.img})`,
+          }}
+        ></div>
+      </div>
+    </SplideSlide>
+  );
 }
 
-export default CarouselSlide
+export default CarouselSlide;

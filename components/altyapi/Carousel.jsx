@@ -1,11 +1,10 @@
 "use client";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import CarouselSlide from "./CarouselSlide";
+import CarouselSlide from "../CarouselSlide";
 
-const slides = Array.from(Array(5).keys());
-
-export default function Carousel() {
+export default function Carousel({ slideAmount, src }) {
+  const slides = Array.from(Array(slideAmount).keys());
   return (
     <Splide
       options={{
@@ -19,9 +18,9 @@ export default function Carousel() {
       {slides.map((index) => (
         <CarouselSlide
           key={index}
-          img={`/carousel/${index + 1}.jpg`}
-          sm="100"
-          xs="75"
+          img={`/altyapı/${src}/${index}.jpg`}
+          sm="95"
+          xs="85"
         />
       ))}
     </Splide>
