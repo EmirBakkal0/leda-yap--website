@@ -8,13 +8,13 @@ function CarouselSlide(props) {
   return (
     <SplideSlide>
       <div
-        className={` relative flex min-h-[300px] pb-32 pt-16 md:min-h-[500px]`}
-        // style={{
-        //   minHeight: "600px",
-        // }}
+        className={` relative flex pb-32  pt-16`}
+        style={{
+          minHeight: "300px",
+        }}
       >
         <div
-          className="absolute top-0 size-full bg-cover bg-center"
+          className="absolute top-0 size-full bg-cover bg-center "
           style={{
             backgroundImage: `url(${props.img})`,
           }}

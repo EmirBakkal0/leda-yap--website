@@ -4,40 +4,32 @@ import Card from "@/components/altyapi/Card";
 
 function Altyapi() {
   return (
-    <div className="container mx-auto grid md:grid-cols-2">
+    <div className="container mx-auto grid md:grid-cols-2 ">
       <Card
         header={"Atıksu Arıtma"}
-        slideAmount={15}
+        slideAmount={16}
         slideSrc={"atiksu"}
-        p="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-          adipisci porro et laudantium mollitia ea ipsam tenetur non distinctio
-          quibusdam!"
+        p="Evsel ve endüstriyel kullanım sonucu oluşan atıksuların, deşarj limitlerine uygun veya kullanma suyu olarak kullanılabilir seviyelere eriştirebilen, ilgili prosesler ile arıtımın yapıldığı sistemlerdir."
       />
 
       <Card
         header="İçme Suyu Arıtma"
         slideAmount={10}
         slideSrc={"icmesu"}
-        p="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-          adipisci porro et laudantium mollitia ea ipsam tenetur non distinctio
-          quibusdam!"
+        p="Tabiatta mevcut olan su kaynaklarının kullanılabilir ve içilebilir özelliğe getirilmesi amacıyla kurulan tesislerdir."
       />
 
       <Card
-        header="Nehir Arıtma"
+        header="Nehir Suyu Arıtma"
         slideAmount={3}
         slideSrc={"nehirsu"}
-        p="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-          adipisci porro et laudantium mollitia ea ipsam tenetur non distinctio
-          quibusdam!"
+        p="Akarsu kaynaklı suların kullanılabilir özelliğe getirilmesi amacıyla kurulan tesislerdir."
       />
       <Card
         header="Alt Yapı"
-        slideAmount={5}
+        slideAmount={7}
         slideSrc={"altyapı"}
-        p="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-          adipisci porro et laudantium mollitia ea ipsam tenetur non distinctio
-          quibusdam!"
+        p="Atıksu ve içme suyu hatlarının imali."
       />
     </div>
   );

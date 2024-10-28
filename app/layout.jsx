@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <head>
         <ThemeModeScript />
       </head>
-      <body className={roboto.className}>
+      <body className={`${roboto.className} bg-gray-200`}>
         <Nav />
         {children}
         <Footer />

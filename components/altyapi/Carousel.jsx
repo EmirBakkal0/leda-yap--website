@@ -1,7 +1,7 @@
 "use client";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import CarouselSlide from "../CarouselSlide";
+import CarouselSlide from "./CarouselSlide";
 
 export default function Carousel({ slideAmount, src }) {
   const slides = Array.from(Array(slideAmount).keys());

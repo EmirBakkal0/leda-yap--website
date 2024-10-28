@@ -10,8 +10,8 @@ export default function Home() {
     <main className="">
       <Carousel />
 
-      <section className="container mx-auto mt-8 grid md:grid-cols-2">
-        <div className="flex flex-col p-4">
+      <section className="container mx-auto mt-2 grid md:grid-cols-2">
+        <div className="m-3 rounded-md border-2 border-solid border-gray-400 bg-white p-4 shadow-xl">
           <h2 className="mb-2 text-2xl font-bold">Hakkımızda</h2>
 
           <p>
@@ -22,13 +22,13 @@ export default function Home() {
             sağlamaktır.
           </p>
         </div>
-        <div className="p-4">
+        <div className="m-3 rounded-md border-2 border-solid border-gray-400 bg-white p-4 shadow-xl">
           <h2 className="mb-2 text-2xl font-bold">Kalite Politikamız</h2>
           <p>
-            Leda Engineering olarak, Kalite Yönetim Sistemimizin etkinliğinin
-            sürekli iyileştirilmesini ve şartlara uygunluğunun periyodik olarak
-            gözden geçirilmesini, bu amaçla Kalite Politikamız ve buna paralel
-            olarak belirlediğimiz Kalite Hedeflerimizin iyileştirilmesinin
+            Leda Yapı olarak, Kalite Yönetim Sistemimizin etkinliğinin sürekli
+            iyileştirilmesini ve şartlara uygunluğunun periyodik olarak gözden
+            geçirilmesini, bu amaçla Kalite Politikamız ve buna paralel olarak
+            belirlediğimiz Kalite Hedeflerimizin iyileştirilmesinin
             sürekliliğini taahhüt ederiz.
           </p>
         </div>
