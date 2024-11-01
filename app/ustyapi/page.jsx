@@ -14,7 +14,7 @@ export default function Ustyapi() {
       <div className="grid md:grid-cols-2">
         <Card
           header={"Kocaeli"}
-          slideAmount={7}
+          slideAmount={8}
           slideSrc={"kocaeli"}
           // p={"dsghjkndwaBATWYG ARSJHAGSKP"}
         />
