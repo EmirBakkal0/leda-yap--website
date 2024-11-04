@@ -3,7 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import CarouselSlide from "./CarouselSlide";
 
-const slides = Array.from(Array(5).keys());
+const slides = Array.from(Array(6).keys());
 
 export default function Carousel() {
   return (
@@ -20,8 +20,8 @@ export default function Carousel() {
         <CarouselSlide
           key={index}
           img={`/carousel/${index + 1}.jpg`}
-          sm="100"
-          xs="75"
+          // sm="100"
+          // xs="75"
         />
       ))}
     </Splide>

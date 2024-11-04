@@ -22,7 +22,7 @@ export function Nav() {
             height={55}
           />
         </Navbar.Brand>
-        <Navbar.Brand href="http://bklgrup.com">
+        <Navbar.Brand href="https://bklgrup.com">
           <Image
             src="/BKL-GRUP-logo.png"
             alt="BKL GRUP Logo"

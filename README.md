@@ -1,3 +1,15 @@
+# live link
+
+https://ledayapi.com
+
+![1730750102786](image/README/1730750102786.png)![1730750112024](image/README/1730750112024.png)
+
+used splide.js for carousels
+
+next.js with tailwind is used
+
+routing links have" .html" added to them so when you host it locally using "npm run dev" it says 404 which is normal.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

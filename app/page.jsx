@@ -1,17 +1,12 @@
-import { DarkThemeToggle } from "flowbite-react";
+// import { DarkThemeToggle } from "flowbite-react";
 import Carousel from "@/components/Carousel";
 export default function Home() {
-  const SLIDE_COUNT = 5;
-  const SLIDES = Array.from(Array(5).keys());
-
-  const pics = [];
-
   return (
     <main className="">
       <Carousel />
 
       <section className="container mx-auto mt-2 grid md:grid-cols-2">
-        <div className="m-3 rounded-md border-2 border-solid border-gray-400 bg-white p-4 shadow-xl">
+        <div className="m-3 rounded-md  bg-white p-4 shadow-xl">
           <h2 className="mb-2 text-2xl font-bold">Hakkımızda</h2>
 
           <p>
@@ -22,7 +17,7 @@ export default function Home() {
             sağlamaktır.
           </p>
         </div>
-        <div className="m-3 rounded-md border-2 border-solid border-gray-400 bg-white p-4 shadow-xl">
+        <div className="m-3 rounded-md  bg-white p-4 shadow-xl">
           <h2 className="mb-2 text-2xl font-bold">Kalite Politikamız</h2>
           <p>
             Leda Yapı olarak, Kalite Yönetim Sistemimizin etkinliğinin sürekli
@@ -34,7 +29,7 @@ export default function Home() {
         </div>
       </section>
       <div className="container mx-auto mb-4">
-        <div className=" m-3 rounded-md border-2 border-solid border-gray-400 bg-white py-2">
+        <div className=" m-3 rounded-md bg-white py-2 shadow-xl">
           <div className="m-3">
             <iframe
               className="w-full "
